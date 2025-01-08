@@ -54,5 +54,7 @@ docker run -p 5601:5601 --name kibana --link elasticsearch:elasticsearch docker.
 
 15) Final Kibana Dashboard
 ![image](https://github.com/user-attachments/assets/faf861a4-b541-41ec-b81b-c3cc2b272629)
+
+Sample Run
 ![image](https://github.com/user-attachments/assets/6eff82ed-741d-46aa-889a-c5c718a849bc)
 
