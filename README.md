@@ -34,7 +34,7 @@ Escape :wq
 8) Update security config with custom tcp rule with port 4444:4450, also 9200 & 5601 for elk via myIP
 ![image](https://github.com/user-attachments/assets/1177c85e-3eee-4677-b101-65ec538a82cb)
 
-9) to scale chrome to 10 (if needed)
+9) To scale chrome to 10 (if needed)
 Down all container and then
 docker-compose up —scale ChromeService=10
 
