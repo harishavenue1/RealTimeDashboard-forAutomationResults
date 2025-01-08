@@ -52,7 +52,7 @@ docker run -p 5601:5601 --name kibana --link elasticsearch:elasticsearch docker.
 
 14) Run the Tests on Grid and Validate results on Kibana Dashboard
 
-15) Final Kibana Dashboard
+15) Final Kibana Dashboard (with all run results for entire day, can be filtered for specific timeslot as well)
 ![image](https://github.com/user-attachments/assets/faf861a4-b541-41ec-b81b-c3cc2b272629)
 
 Sample Run
