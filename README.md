@@ -1,8 +1,8 @@
 # RealTimeDashboard-forAutomationResults
 
 Launch AWS Machine with Enough Space to Download below Set of Softwares
-![image](https://github.com/user-attachments/assets/fb601a6c-51a5-4743-9e08-37c0801e1216)
 
+![image](https://github.com/user-attachments/assets/fb601a6c-51a5-4743-9e08-37c0801e1216)
 
 1) Install Java
 sudo su
