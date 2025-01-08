@@ -31,20 +31,18 @@ Escape :wq
 7) docker-compose up
 ![image](https://github.com/user-attachments/assets/7b1a8cf2-3e64-418f-8e99-d72993b34279)
 
-8) Update security config with custom tcp rule with port 4444:4450 for only myIP
+8) Update security config with custom tcp rule with port 4444:4450, also 9200 & 5601 for elk via myIP
+![image](https://github.com/user-attachments/assets/1177c85e-3eee-4677-b101-65ec538a82cb)
 
-9) to scale chrome to 10
+9) to scale chrome to 10 (if needed)
 Down all container and then
 docker-compose up —scale ChromeService=10
 
-10) To run elasticsearch
+10) To run elasticsearch & kibana
 docker run -p 9200:9200 -p 9300:9300 --name elasticsearch -e "discovery.type=single-node"  docker.elastic.co/elasticsearch/elasticsearch:7.11.1
-
-To run Kibana
 docker run -p 5601:5601 --name kibana --link elasticsearch:elasticsearch docker.elastic.co/kibana/kibana:7.11.1
 
-11)
-Create Index on elastic search via postman
+11) Create Index on elastic search via postman
 ![image](https://github.com/user-attachments/assets/79bc9fdc-bae3-4ab2-badb-d20f1892ff3b)
 ![image](https://github.com/user-attachments/assets/c4804254-3dc9-4f7a-acab-324c364bc311)
 
